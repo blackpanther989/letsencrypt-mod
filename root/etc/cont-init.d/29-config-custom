@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+echo "Copying /config/dns_rfc2136.py To /usr/lib/python3.8/site-packages/certbot_dns_rfc2136/_internal/dns_rfc2136.py"
+cp /mod-files/dns_rfc2136.py /usr/lib/python3.8/site-packages/certbot_dns_rfc2136/_internal/dns_rfc2136.py
