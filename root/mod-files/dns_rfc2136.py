@@ -39,7 +39,7 @@ class Authenticator(dns_common.DNSAuthenticator):
     PORT = 53
 
     description = 'Obtain certificates using a DNS TXT record (if you are using BIND for DNS).'
-    ttl = 120
+    ttl = 60
 
     def __init__(self, *args, **kwargs):
         super(Authenticator, self).__init__(*args, **kwargs)
